@@ -107,22 +107,22 @@ function draw() {
 function keyPressed() {
   if (keyCode === LEFT_ARROW) {
     // Open in the same window the following url:
-    window.open("http://127.0.0.1:5500/techno.html", "_self");
+    window.open("./techno.html", "_self");
   }
 
   if (keyCode === RIGHT_ARROW) {
-    window.open("http://127.0.0.1:5500/jazz.html", "_self");
+    window.open("./jazz.html", "_self");
   }
 
   if (keyCode === UP_ARROW) {
-    window.open("http://127.0.0.1:5500/reggae.html", "_self");
+    window.open("./reggae.html", "_self");
   }
 
   if (keyCode === DOWN_ARROW) {
-    window.open("http://127.0.0.1:5500/metal.html", "_self");
+    window.open("./metal.html", "_self");
   }
 
   if (keyCode === ENTER) {
-    window.open("http://127.0.0.1:5500/index.html", "_self");
+    window.open("./index.html", "_self");
   }
 }
